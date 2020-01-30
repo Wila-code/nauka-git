@@ -14,7 +14,7 @@ body {
     text-align: center;
     color: $color-dark;
     font-size: 16px;
-    line-height: 1.7;
+    line-height: 1.4;
     font-family: $font-text
 }
 
@@ -32,13 +32,13 @@ section {
 
 .title {
     position: relative;
-    font-size: 76px;
+    font-size: 66px;
     margin: 0 0 60px 0;
     font-family: $font-header;
     color: $color-main;
 }
 .subtitle {
-    font-size: 38px;
+    font-size: 36px;
     margin: 48px 0 0 0;
     color: $color-dark;
 }
@@ -50,7 +50,7 @@ section {
     width: 60%;
     margin: 0 auto;
     padding: 48px 0;
-    font-size: 24px;
+    font-size: 20px;
     border-top: 10px solid #800000;
     border-bottom: 10px solid #800000;
     margin-top: 40px;
