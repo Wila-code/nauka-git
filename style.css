@@ -1,9 +1,6 @@
 /* Global */
 
 
-$font-text:'Cabin', Sans-Serif;
-$font-header:'Roboto Condensed', Sans-Serif;
-
 *, *::before, *::after {
 	box-sizing: border-box;
 }
@@ -12,31 +9,32 @@ body {
     margin: 0;
     text-align: center;
     font-size: 16px;
-    line-height: 1.4;
-    font-family: $font-text
+    line-height: 1.5;
+    font-family: 'Cabin', Sans-Serif;
 }
 
 section {
-    padding-top: 18px;
-    padding-bottom: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .container {
     max-width: 1140px;
     margin: 0 auto;
     padding: 0 20px;
+    font-family: 'Roboto Condensed', Sans-Serif;
 }
 
 
 .title {
     position: relative;
-    font-size: 46px;
+    font-size: 36px;
     margin: 0 0 30px 0;
-    font-family: $font-header;
+    font-family: 'Roboto Condensed', Sans-Serif;
     color: #800000;
 }
 .subtitle {
-    font-size: 26px;
+    font-size: 16px;
     margin: 18px 0 0 0;
     color: #3d3d3d;
 }
@@ -48,9 +46,9 @@ section {
     width: 60%;
     margin: 0 auto;
     padding: 48px 0;
-    font-size: 20px;
+    font-size: 16px;
     border-top: 10px solid #800000;
     border-bottom: 10px solid #800000;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
